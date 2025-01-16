@@ -18,9 +18,9 @@
 
 [Tipos básicos y conceptos generales](Seccion-3-BasesDeTypeScript/src/topics/01-basic-types.ts)
 
-[Objetos, arreglos e interfaces]()
+[Objetos, arreglos e interfaces](Seccion-3-BasesDeTypeScript/src/topics/02-object-interface.ts)
 
-[Funciones y sus argumentos]()
+[Funciones y sus argumentos](Seccion-3-BasesDeTypeScript/src/topics/03-functions.ts)
 
 [Desestructuración de arreglos y objetos]()
 
