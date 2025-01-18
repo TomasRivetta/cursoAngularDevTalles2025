@@ -22,14 +22,17 @@
 
 [Funciones y sus argumentos](Seccion-3-BasesDeTypeScript/src/topics/03-functions.ts)
 
-[Desestructuración de arreglos y objetos]()
+[Tarea sobre objetos e interfaces](Seccion-3-BasesDeTypeScript/src/topics/04-homework-types.ts)
 
-[Importaciones y exportaciones]()
+[Desestructuración de arreglos y objetos](Seccion-3-BasesDeTypeScript/src/topics/06-function-destructuring.ts)
 
-[Clases, constructores]()
+[Importaciones y exportaciones](Seccion-3-BasesDeTypeScript/src/topics/07-import-export.ts)
 
-[Tipos genéricos]()
+[Clases, constructores](Seccion-3-BasesDeTypeScript/src/topics/08-classes.ts)
 
-[Decoradores]()
+[Tipos genéricos](Seccion-3-BasesDeTypeScript/src/topics/09-generics.ts)
 
-[Encadenamiento opcional]()
+[Decoradores](Seccion-3-BasesDeTypeScript/src/topics/10-decorators.ts)
+[link para ver mas decoradores](https://www.typescriptlang.org/docs/handbook/decorators.html)
+
+[Encadenamiento opcional](Seccion-3-BasesDeTypeScript/src/topics/11-optional-chaining.ts)

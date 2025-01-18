@@ -20,12 +20,34 @@ function multiply(
   return firstNumber * base;
 }
 
-const result: number = addNumbers(1, 2);
-const result2: string = addNumbersArrow(1, 2);
-const multiplyResult: number = multiply(5);
+interface Character {
+  name: string;
+  hp: number;
+  //Definimos una funcion y definimos que nos va a retornar
+  showHp: () => void;
+}
 
-console.log({ result });
-console.log({ result2 });
-console.log({ multiplyResult });
+const healCharacter = (character: Character, amount: number) => {
+  character.hp += amount;
+};
+
+const strider: Character = {
+  name: "strider",
+  hp: 50,
+  showHp() {
+    console.log(`Puntos de vida ${this.hp}`);
+  },
+};
+
+healCharacter(strider, 10);
+
+strider.showHp();
+
+// const result: number = addNumbers(1, 2);
+// const result2: string = addNumbersArrow(1, 2);
+// const multiplyResult: number = multiply(5);
+// console.log({ result });
+// console.log({ result2 });
+// console.log({ multiplyResult });
 
 export {};
